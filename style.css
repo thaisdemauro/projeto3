@@ -203,15 +203,17 @@ footer{
     max-width: 1200px;
     height: 500px;
     padding:30px 10px;
-    position: relative;
+   
     
 }
+
+
 
 .form-container{
     width: 65%;
     height: 375px;
     position: relative;
-    display: block;
+   
 }
 
 .form-background{
@@ -219,6 +221,7 @@ footer{
     height: 100%;
     background-color: #fff;
     opacity: .5;
+   
 }
 
 .form-container form{
@@ -226,6 +229,7 @@ footer{
     top:30px;
     left:30px;
     height: 300px;
+
 }
 
 .form-container input, .form-container textarea{
@@ -237,26 +241,10 @@ footer{
     border-bottom: 1px solid #aaa;
     border-radius: 0;
     background-color: transparent;
+   
+   
 }
 
-.form-container textarea{
-    height: 120px;
-}
-
-.form container input::placeholder, .form-container textarea::placeholder{
-    font-size: 14px;
-}
-
-.form-container .submit{
-    background-color: #222;
-    color: #fff;
-    border: 1px solid transparent;
-    width: 100px;
-    position: relative;
-    float: right;
-    cursor: pointer;
-    transition: .5s;
-}
 
 .form-container .submit:hover {
 	background-color: #FFF;
